@@ -23,3 +23,10 @@ production:
   database: db/production.sqlite3
   pool: 5
   timeout: 5000
+
+development:
+ adapter: mysql2
+ database: ticketee_development
+ username: jamie2
+ password: password
+ encoding: utf8
